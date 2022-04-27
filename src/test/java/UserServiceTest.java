@@ -47,11 +47,11 @@ public class UserServiceTest {
                     || !testLastName.equals(user.getLastName())
                     || testAge != user.getAge()
             ) {
-                Assert.fail("User был некорректно добавлен в базу данных");
+                Assert.fail("User bil nekorrekto dobavlen v basu dannih");
             }
 
         } catch (Exception e) {
-            Assert.fail("Во время тестирования сохранения пользователя произошло исключение\n" + e);
+            Assert.fail("Vo vremya testirovaniya sohraneniya polzovatelya proizoshlo isklyuchenie\n" + e);
         }
     }
 

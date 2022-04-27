@@ -8,8 +8,8 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
 public class Util {
- //   private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost:3306/test?serverTimezone=Europe/Moscow";
+   // private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String URL = "jdbc:mysql://localhost:3306/mydbtest";
     private static final String LOGIN = "root";
     private static final String PASSWORD = "MyS@12348765";
     private static SessionFactory sessionFactory = null;
@@ -18,7 +18,7 @@ public class Util {
 
         try {
             Configuration configuration = new Configuration()
-                   // .setProperty("hibernate.connection.driver_class", DRIVER)
+                //    .setProperty("hibernate.connection.driver_class", DRIVER)
                     .setProperty("hibernate.connection.url", URL)
                     .setProperty("hibernate.connection.username", LOGIN)
                     .setProperty("hibernate.connection.password", PASSWORD)

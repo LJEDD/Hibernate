@@ -13,6 +13,7 @@ public class Main {
     private static final User user4 = new User("Den", "Troch", (byte) 52);
 
     public static void main(String[] args) {
+
         userService.createUsersTable();
 
         userService.saveUser(user1.getName(), user1.getLastName(), user1.getAge());
