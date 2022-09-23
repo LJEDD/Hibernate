@@ -41,5 +41,5 @@ public class Util {
             sessionFactory.close();
     }
 }
-    // реализуйте настройку соеденения с БД
+   
 

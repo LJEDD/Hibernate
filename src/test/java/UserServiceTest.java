@@ -20,7 +20,7 @@ public class UserServiceTest {
             userService.dropUsersTable();
             userService.dropUsersTable();
         } catch (Exception e) {
-            Assert.fail("При тестировании удаления таблицы произошло исключение\n" + e);
+            Assert.fail("Pri testirovaniya udaleniya tablici proizoshlo isklyuchenie\n" + e);
         }
     }
 
@@ -30,7 +30,7 @@ public class UserServiceTest {
             userService.dropUsersTable();
             userService.createUsersTable();
         } catch (Exception e) {
-            Assert.fail("При тестировании создания таблицы пользователей произошло исключение\n" + e.getMessage());
+            Assert.fail("Pri testirovanii sozdaniya tablici polzovatelej proizoshlo isklyuchenie\n" + e.getMessage());
         }
     }
 
